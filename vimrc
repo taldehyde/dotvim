@@ -9,6 +9,9 @@ set softtabstop=4
 set shiftwidth=4
 set smartindent
 set autoindent
+set hlsearch
+set ignorecase
+colorscheme elflord
 
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0

@@ -12,6 +12,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-fugitive'
 Plugin 'taglist.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -44,7 +45,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 syntax on
-filetype plugin indent on
 
 set encoding=utf-8
 set expandtab

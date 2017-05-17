@@ -2,6 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set encoding=utf-8
 set expandtab
 set textwidth=79
 set tabstop=8
